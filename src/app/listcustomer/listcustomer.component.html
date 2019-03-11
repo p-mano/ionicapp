@@ -1,0 +1,17 @@
+<ion-content padding>
+    <ion-card>
+        <ion-card-header *ngFor="let c of list">
+          <ion-card-subtitle>{{c.id}}</ion-card-subtitle>
+          <ion-card-title>{{c.name}}</ion-card-title>
+   
+      
+        <ion-card-content>
+            {{c.email}}<br>
+   
+            {{c.mobile}}<br>
+      
+            {{c.address}}
+        </ion-card-content>
+      </ion-card-header>
+      </ion-card>
+    </ion-content>
